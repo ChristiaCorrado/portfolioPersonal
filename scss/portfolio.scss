@@ -1,25 +1,2 @@
-.bgNavbar{
-  background: #3d0057;
-  color: white;
-  border: none;
-  a{
-    color: white;
 
-  }
-  a:hover{ color: white;}
-}
-
-.myPic{
-  padding-top: 100px;
- overflow: hidden;
-  img{
-    width: 100%;
-    height: 100%;
-    border-radius: 400px;
-
-  }
-}
-
-.typedDevelop{
-  color:#fff;
-}
+@import "main.scss";
