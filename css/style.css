@@ -6,13 +6,21 @@
 .bgNavbar {
   font-weight: 400, 1rem;
   letter-spacing: 0.6px;
-  background: #3d0057;
+  background: #1c003b;
   color: white;
   border: none; }
   .bgNavbar a {
     color: white; }
   .bgNavbar a:hover {
     color: white; }
+
+.firstContainer {
+  background-image: url(../media/fondoInit.jpg); }
+
+.gradientFirstContainer {
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(180deg, transparent, #000); }
 
 .myPic img {
   max-width: 300px;
@@ -27,11 +35,19 @@
   color: #fff; }
 
 .typedDevelop {
-  color: #fff;
+  background: linear-gradient(90deg, #1c003b 0%, #7f00b2 59%);
+  -webkit-background-clip: text;
+  color: transparent;
   font-size: 900, 1rem, italic; }
 
 body {
   font-family: "Prompt", sans-serif; }
+
+.containerSobremy {
+  position: absolute;
+  z-index: 20;
+  padding-top: 30px;
+  padding-bottom: 30px; }
 
 .containerAbout {
   padding: 20px; }

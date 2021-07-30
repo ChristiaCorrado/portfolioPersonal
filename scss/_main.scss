@@ -8,7 +8,7 @@
 .bgNavbar{
   font-weight: $fRegular;
   letter-spacing: 0.6px;
-  background: #3d0057;
+  background: #1c003b;
   color: white;
   border: none;
   a{
@@ -18,6 +18,15 @@
   a:hover{ color: white;}
 }
 
+.firstContainer{
+  background-image: url(../media/fondoInit.jpg);
+}
+
+.gradientFirstContainer{
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(180deg, transparent, #000);
+}
 
 .myPic{
 
@@ -38,7 +47,9 @@
 
 }
 .typedDevelop{
-  color:#fff;
+  background:  linear-gradient(90deg, rgba(28,0,59,1) 0%, rgba(127,0,178,1) 59%);
+   -webkit-background-clip: text;
+  color: transparent;
   font-size: $fBlackI;
 }
 
@@ -46,6 +57,12 @@ body{
   font-family: $fuente;
 }
 
+.containerSobremy{
+  position: absolute;
+  z-index: 20;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
 .containerAbout{
 padding: 20px;
 }
