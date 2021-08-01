@@ -5,15 +5,12 @@
   width: 100%;
 }
 
-.logoPersonal{
-  font-weight: $fBlackI;
-}
-
 .bgNavbar{
+  position: fixed;
+  width: 100%;
   font-weight: $fRegular;
   font-size: 1.2rem;
   letter-spacing: 0.6px;
-  background: #1c003b;
   color: white;
   border: none;
   a{
@@ -42,10 +39,6 @@
     max-height: 300px;
     border-radius: 400px;
   }
-}
-
-.iAm{
-  font-size: 30px;
 }
 
 .typedContainer{
