@@ -5,8 +5,13 @@
   width: 100%;
 }
 
+.logoPersonal{
+  font-weight: $fBlackI;
+}
+
 .bgNavbar{
   font-weight: $fRegular;
+  font-size: 1.2rem;
   letter-spacing: 0.6px;
   background: #1c003b;
   color: white;
@@ -20,6 +25,8 @@
 
 .firstContainer{
   background-image: url(../media/fondoInit.jpg);
+  background-size: cover;
+  overflow: hidden;
 }
 
 .gradientFirstContainer{
@@ -37,15 +44,21 @@
   }
 }
 
+.iAm{
+  font-size: 30px;
+}
+
 .typedContainer{
   width: 400px;
+
 }
 
 .titulo{
     font-family: $fuente;
     color:#fff;
-
+    font-size: 2.5rem;
 }
+
 .typedDevelop{
   background:  linear-gradient(90deg, rgba(28,0,59,1) 0%, rgba(127,0,178,1) 59%);
    -webkit-background-clip: text;
@@ -57,12 +70,6 @@ body{
   font-family: $fuente;
 }
 
-.containerSobremy{
-  position: absolute;
-  z-index: 20;
-  padding-top: 30px;
-  padding-bottom: 30px;
-}
 .containerAbout{
 padding: 20px;
 }

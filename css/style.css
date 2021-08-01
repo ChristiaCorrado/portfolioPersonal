@@ -3,8 +3,12 @@
   height: 100vh;
   width: 100%; }
 
+.logoPersonal {
+  font-weight: 900, 1rem, italic; }
+
 .bgNavbar {
   font-weight: 400, 1rem;
+  font-size: 1.2rem;
   letter-spacing: 0.6px;
   background: #1c003b;
   color: white;
@@ -15,7 +19,9 @@
     color: white; }
 
 .firstContainer {
-  background-image: url(../media/fondoInit.jpg); }
+  background-image: url(../media/fondoInit.jpg);
+  background-size: cover;
+  overflow: hidden; }
 
 .gradientFirstContainer {
   width: 100%;
@@ -27,12 +33,16 @@
   max-height: 300px;
   border-radius: 400px; }
 
+.iAm {
+  font-size: 30px; }
+
 .typedContainer {
   width: 400px; }
 
 .titulo {
   font-family: "Prompt", sans-serif;
-  color: #fff; }
+  color: #fff;
+  font-size: 2.5rem; }
 
 .typedDevelop {
   background: linear-gradient(90deg, #1c003b 0%, #7f00b2 59%);
@@ -42,12 +52,6 @@
 
 body {
   font-family: "Prompt", sans-serif; }
-
-.containerSobremy {
-  position: absolute;
-  z-index: 20;
-  padding-top: 30px;
-  padding-bottom: 30px; }
 
 .containerAbout {
   padding: 20px; }
