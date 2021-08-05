@@ -26,13 +26,15 @@
   height: 100%;
   background-image: linear-gradient(180deg, transparent, #000); }
 
-.myPic img {
-  max-width: 300px;
-  max-height: 300px;
-  border-radius: 400px; }
+.picContainer {
+  width: 550px; }
+  .picContainer img {
+    max-width: 300px;
+    max-height: 300px;
+    border-radius: 400px; }
 
 .typedContainer {
-  width: 600px; }
+  width: 550px; }
 
 .titulo {
   font-family: "Prompt", sans-serif;
@@ -45,8 +47,9 @@
   color: transparent;
   font-size: 900, 1rem, italic; }
 
-body {
-  font-family: "Prompt", sans-serif; }
+.containerGeneral {
+  font-family: "Prompt", sans-serif;
+  color: #323330; }
 
 .aboutMyContainer {
   width: 500px;
@@ -60,3 +63,18 @@ body {
 
 .skills {
   font-size: 4rem !important; }
+
+.htmlLog i:hover {
+  color: #f06529; }
+
+.cssLog i:hover {
+  color: #0e76a8; }
+
+.jsLog i:hover {
+  color: #f0db4f; }
+
+.bstLog i:hover {
+  color: #563d7c; }
+
+.sassLog i:hover {
+  color: #cc6699; }
