@@ -78,6 +78,9 @@
 .sassLog i:hover {
   color: #cc6699; }
 
+.ghLog i:hover {
+  color: #7a2f9e; }
+
 .containerPortfolio {
   height: 100vh;
   background: #000035; }
