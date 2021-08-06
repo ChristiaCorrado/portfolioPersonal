@@ -37,7 +37,6 @@
   width: 550px; }
 
 .titulo {
-  font-family: "Prompt", sans-serif;
   color: #fff;
   font-size: 3rem; }
 
@@ -78,3 +77,7 @@
 
 .sassLog i:hover {
   color: #cc6699; }
+
+.containerPortfolio {
+  height: 100vh;
+  background: #000035; }
