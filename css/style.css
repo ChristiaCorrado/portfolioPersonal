@@ -81,6 +81,24 @@
 .ghLog i:hover {
   color: #7a2f9e; }
 
+.containerServicios {
+  color: #fff;
+  background-image: url(../media/fondoServicios.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed; }
+
 .containerPortfolio {
   height: 100vh;
-  background: #000035; }
+  background: #f0f0f0; }
+
+.miServicio {
+  width: 200px;
+  height: 250px; }
+  .miServicio h4 {
+    font-weight: 500, 1rem; }
+
+.logServicios {
+  background: linear-gradient(-180deg, #db469f, #2188ff);
+  -webkit-background-clip: text;
+  color: transparent; }
