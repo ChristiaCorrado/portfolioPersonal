@@ -1,5 +1,10 @@
 @import "variables";
 
+a{
+  text-decoration:none !important;
+  color: #fff !important;
+}
+
 .logoContainer{
   height:100%;
 }
@@ -31,7 +36,6 @@
   background:#0a101e;
   z-index: 99;
   a{
-    
     padding-left: 10px;
     padding-right: 10px;
     margin: 10px;
@@ -76,14 +80,6 @@
   }
 }
 
-.picFist {
-  width: 20rem;
-  height: 20rem;
-  background-image: url(../media/misDesarrollos/piedraPapelTijera.jpg);
-  background-position: center;
-  background-size: cover;
-
-}
 
 .typedContainer{
   width: 550px;
@@ -197,6 +193,53 @@
 .containerPortfolio{
   height: 100vh;
 }
+
+.containerImgPortfolio{
+  position: absolute;
+}
+
+.imgPortfolio{
+  width: 100%;
+  height:200px;
+}:hover .containerDescripcion{
+  transform: scale(1);
+}
+
+.firstProyect{
+  background-image: url(../media/misDesarrollos/firstProyect.jpg);
+  background-position: center center;
+  background-size: cover; 
+}
+
+.containerDescripcion{
+  position: relative;
+  width: 100%;
+  background: rgba(255, 255, 255, 0.342);
+  top: -100%;
+  transform: scale(0);
+}
+
+.secondProyect{
+  background-image: url(../media/misDesarrollos/appDelClima.jpg);
+  background-position: center center;
+  background-size: cover; 
+}
+
+.thirdProyect{
+  background-image: url(../media/misDesarrollos/simulador.jpg);
+  background-position: center center;
+  background-size: cover; 
+}
+
+.fourthProyect{
+  background-image: url(../media/misDesarrollos/ecommercePPT.jpg);
+  background-position: center center;
+  background-size: cover; 
+}
+
+
+
+
 
 .miServicio{
   width: 200px;
