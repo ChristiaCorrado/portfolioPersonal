@@ -1,6 +1,6 @@
 const typed = new Typed('.typed', {
 	strings: [
-		'<i class="typedDevelop">Desarrollador Web</i>',
+		'<i class="typedDevelop">Front-end Developer</i>',
 		'<i class="typedDevelop">Emprendedor</i>',
 		'<i class="typedDevelop">Estudiante</i>',
 	],
@@ -18,3 +18,5 @@ const typed = new Typed('.typed', {
 	cursorChar: '|', // Caracter para el cursor
 	contentType: 'html', // 'html' o 'null' para texto sin formato
 });
+
+

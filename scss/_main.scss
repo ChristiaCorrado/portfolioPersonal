@@ -1,27 +1,60 @@
 @import "variables";
 
-.firstContainer{
-  height: 100vh;
-  width: 100%;
+.logoContainer{
+  height:100%;
+}
+.logoTitle {
+  font-family: 'Anton', cursive;
+  font-size: 2rem;
+  color: cyan;
 }
 
-.bgNavbar{
-  position: absolute;
+.logoDescription{
+  font-family: 'Anton', cursive;
+  font-size: 1rem;
+}
+
+.containerRellenate{
+  height:80px;
   width: 100%;
-  font-weight: $fRegular;
-  font-size: 1.2rem;
-  letter-spacing: 0.6px;
-  color: white;
-  border: none;
+  background: transparent;
+}
+
+.navHeader{
+  position: fixed;
+  width: 100%;
+  height: 80px;
+  display:flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  background:#0a101e;
+  z-index: 99;
   a{
-    color: white;
-
+    
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: 10px;
+    color: #fff;
+  }& :hover{
+    color: #fff;
+    text-decoration: none;
   }
-  a:hover{ color: white;}
 }
 
 .firstContainer{
-  background-image: url(../media/fondoInit.jpg);
+  height:100vh;
+}
+
+.navLink{
+  display: flex;
+  flex-direction: row;
+  
+}
+
+.firstContainer{
+  background-image: url(../media/pexels-miriam-espacio-110854.jpg);
+  background-position: center;
   background-size: cover;
   overflow: hidden;
 }
@@ -36,10 +69,20 @@
   width: 550px;
 
   img{
+    background-image: linear-gradient(0, transparent, #000);
     max-width: 300px;
     max-height: 300px;
     border-radius: 400px;
   }
+}
+
+.picFist {
+  width: 20rem;
+  height: 20rem;
+  background-image: url(../media/misDesarrollos/piedraPapelTijera.jpg);
+  background-position: center;
+  background-size: cover;
+
 }
 
 .typedContainer{
@@ -50,10 +93,11 @@
 .titulo{
     color:#fff;
     font-size: 3rem;
+    z-index: 3;
 }
 
 .typedDevelop{
-  background: linear-gradient(-70deg,#db469f,#2188ff);
+  background: cyan;
    -webkit-background-clip: text;
   color: transparent;
   font-size: $fBlackI;
@@ -64,11 +108,33 @@
   color:#323330;
 }
 
+.containerBackground {
+  background:#0a101e;
+  color: #fff;
+}
+
+.tituloContainer{
+  position: relative;
+  z-index:3;
+}
+.tituloBack{
+  position: absolute;
+  color: rgba(73, 71, 71, 0.253);
+  font-weight:$fBlack;
+  font-size: 6rem;
+  right:25%;
+  left: 25%;
+  top: -4%;
+  z-index: -1;
+}
 
 .aboutMyContainer{
-  width: 500px;
+  width: 750px;
   height: 400px;
   font-size: 1.5rem;
+}
+.containerResumen{
+  height: 100vh;
 }
 
 .containerSkill{
@@ -113,6 +179,12 @@
   }
 }
 
+.reactLog{
+  i:hover{
+    color:#61dbfb;
+  }
+}
+
 .containerServicios{
   color: #fff;
   background-image: url(../media/fondoServicios.jpg);
@@ -124,7 +196,6 @@
 
 .containerPortfolio{
   height: 100vh;
-  background: #f0f0f0;
 }
 
 .miServicio{
@@ -140,4 +211,94 @@
   background: linear-gradient(-180deg,#db469f,#2188ff);
    -webkit-background-clip: text;
   color: transparent;
+}
+
+.containerContact{
+  height: 550px;
+  width: 100%;
+
+}
+.formContainer{
+  width: 100%;
+  height:90%;
+  background: #999;
+  border-radius: 10px;
+}
+
+.contactTitle{
+  padding: 8%;
+  font-size: 2rem;
+  width: 30%;
+}
+
+.formGroup{
+  width: 70%;
+  padding: 8%;
+}
+
+
+.inputForm{
+  width:70%;
+  
+}
+
+.inputStyle{
+  background: transparent;
+  border: none;
+  border-bottom: 2px solid #fff;
+  font-size: 14px;
+  color: #fff;
+}:focus{
+  border-bottom: 2px solid #fff;
+  color: #fff;
+}
+
+
+form input{
+  width: 100%;
+  height:40px;
+  margin-bottom: 4%;
+}:focus{
+  outline: none;
+}::placeholder{
+  color: #666;
+}
+
+button{
+  background: transparent;
+  border: none;
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing:.6px;
+  color: #fff;
+}
+
+.contactAnuncio{
+  font-size: 14px;
+  img{
+    width: 10%;
+  }
+}
+
+@media screen and (max-width:320px){
+   .titulo {
+     font-size: 2rem;
+   }
+
+   .typedContainer{
+     height:100px;
+   }
+   .picContainer{
+     img{
+       width: 250px;
+       margin-bottom: 2rem;
+     }
+   }
+   .aboutMyContainer{
+     font-size: 1rem;
+     height:100%;
+   }
+   .skillCase{
+     font-size: 1rem;
+   }
 }

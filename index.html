@@ -20,30 +20,30 @@
 <body class="containerGeneral">
 
   <div class="bgNavbar">
-    <nav class="navbar navbar-light d-flex justify-content-between px-0">
+    <nav class="navHeader">
 
-      <a class="nav-link" href="#"> Christian Corrado </a>
-
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-        <span><i class="fas fa-bars"></i></span>
-      </button>
-      <div class="collapse container-fluid justify-content-end bgNavbar" id="navbarNavAltMarkup">
-        <ul class="nav justify-content-end">
-          <li class="nav-item">
-            <a class="nav-link active" href="#">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Sobre Mi</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Portafolio</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Contacto</a>
-          </li>
-        </ul>
+        <a class='logoContainer d-flex flex-column align-items-center justify-content-center' href="#">
+          
+            <div class="logoTitle">C</div>
+            <div class="logoDescription">CHRIS</div>
+          
+        </a>
+      
+      <div class="navLink" id="">
+                  
+        <a class="" href="#">Home</a>
+        <a class="" href="#about">Sobre Mi</a>
+        <a href="#resume">Skills</a>
+                  
+        <a class="" href="#portfolio">Portafolio</a>
+                  
+        <a class="" href="#contact">Hablemos</a>
+              
       </div>
     </nav>
+  </div>
+  <div class="containerRellenate">
+
   </div>
 
   <section class="firstContainer ">
@@ -67,84 +67,88 @@
     </div>
   </section>
 
-  <section>
+  <section id="about">
 
-    <div class="container-fluid d-flex justify-content-center bg-white containerSobremy row">
+    <div class="containerBackground container-fluid d-flex justify-content-center row pt-5">
 
-      <div class="aboutMyContainer d-flex  align-items-center justify-content-top pl-lg-3">
-        <div>
-          <h3 class="titulo" style="color:#000">Sobre mi</h3>
-          <p class="pt-3">Soy de Rio Cuarto Cordoba Argentina. Dueño de <a href="http://www.papelerapiedrapapelytijera.com.ar/" target="_blank">Papelera Piedra Papel y Tijera</a>,
-            Ademas estoy estudiando Fullstack Developer en Coderhouse aprendiendo los skills mas demandados de la actualidad.
+      <div class="aboutMyContainer pt-4">
+        <div class=" ">
+          <h3 class="titulo">Sobre mi</h3>
+          <p class="pt-3">Vivo en Rio Cuarto Cordoba Argentina. Dueño de <a href="http://www.papelerapiedrapapelytijera.com.ar/" target="_blank">Papelera Piedra Papel y Tijera</a>,
+            Actualmente soy emprendedor y Desarrollador Front-End y estudiante en CODERHOUSE cursando Back-End para llegar a ser Full Stack Developer...
           </p>
         </div>
       </div>
 
-      <div class="containerSkill  align-items-center row col-lg-6 text-center row">
-        <div class=" col-lg-4 col-md-6 col-sm-12 mb-3 htmlLog">
-          <i class="fab fa-html5 skills"></i>
-          <div class="skillCase">Html</div>
-        </div>
-        <div class="col-lg-4 col-md-6 col-sm-12 mb-3 cssLog">
-          <i class="fab fa-css3-alt skills"></i>
-          <div class="skillCase">Css</div>
-        </div>
-        <div class=" col-lg-4 col-md-6 col-sm-12 mb-3 jsLog">
-          <i class="fab fa-js skills"></i>
-          <div class="skillCase">Javascript</div>
-        </div>
-        <div class=" col-lg-4 col-md-6 col-sm-12 mb-3 bstLog">
-          <i class="fab fa-bootstrap skills"></i>
-          <div class="skillCase">Bootstrap</div>
-        </div>
-        <div class=" col-lg-4 col-md-6 col-sm-12 mb-3 sassLog">
-          <i class="fab fa-sass skills"></i>
-          <div class="skillCase">Sass</div>
-        </div>
-        <div class=" col-lg-4 col-md-6 col-sm-12 mb-3 ghLog">
-          <i class="fab fa-github skills"></i>
-          <div class="skillCase">Github</div>
-        </div>
-      </div>
+      
     </div>
 
   </section>
 
 
-  <section id="servicios" class="container-fluid containerServicios">
+  <section id="servicios" class="container-fluid containerServicios ">
 
-      <div class="text-center">
-        <h3 class="titulo pt-3">Servicios</h3>
-      </div>
       <div class=" d-flex justify-content-around align-items-center pt-4 row">
         <div class="miServicio text-center">
-          <i class=" logServicios fas skills fa-desktop"></i>
-          <h4 class="pt-2">Diseño de sitios web alta calidad </h4>
-        </div>
-        <div class="miServicio text-center">
           <i class="logServicios fas skills fa-code"></i>
-          <h4 class="pt-2">Desarrollo adaptado a todos los dispositivos</h4>
-        </div>
-        <div class="miServicio text-center">
-          <i class="logServicios fas skills fa-rocket"></i>
-          <h4 class="pt-2">Posicionamiento en google</h4>
+          <h4 class="pt-2">Front-end Developer</h4>
         </div>
         <div class="miServicio text-center">
           <i class="logServicios fas skills fa-pencil-alt"></i>
-          <h4 class="pt-2">Rediseño de sitios web</h4>
+          <h4 class="pt-2">Diseño</h4>
         </div>
 
     </div>
   </section>
+  
+  <section id='resume' class="containerBackground containerResumen pt-5">
+    <div class="text-center tituloContainer pt-2">
+      <h3 class="tituloBack pt-3">SKILLS</h3>
+      <h3 class="titulo pt-3">SKILLS</h3>
 
-  <section id="portfolio" class="container-fluid containerPortfolio">
+      <div class="containerSkill  align-items-center row col-lg-12 text-center row mt-5">
+        <div class=" col-lg-4 col-md-4 col-sm-4 col-5 mb-3 htmlLog">
+          <i class="fab fa-html5 skills"></i>
+          <div class="skillCase">Html</div>
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-4 col-5 mb-3 cssLog">
+          <i class="fab fa-css3-alt skills"></i>
+          <div class="skillCase">Css</div>
+        </div>
+        <div class=" col-lg-4 col-md-4 col-sm-4 col-5 mb-3 jsLog">
+          <i class="fab fa-js skills"></i>
+          <div class="skillCase">Javascript</div>
+        </div>
+        <div class=" col-lg-4 col-md-4 col-sm-4 col-5 mb-3 reactLog">
+          <i class="fab fa-react skills"></i>
+          <div class="skillCase">React.JS</div>
+        </div>
+        <div class=" col-lg-4 col-md-4 col-sm-4 col-5 mb-3 bstLog">
+          <i class="fab fa-bootstrap skills"></i>
+          <div class="skillCase">Bootstrap</div>
+        </div>
+        <div class=" col-lg-4 col-md-4 col-sm-4 col-5 mb-3 sassLog">
+          <i class="fab fa-sass skills"></i>
+          <div class="skillCase">Sass</div>
+        </div>
+        <div class=" col-lg-4 col-md-4 col-sm-4 col-5 mb-3 ghLog">
+          <i class="fab fa-github skills"></i>
+          <div class="skillCase">Github</div>
+        </div>
+        
+      </div>
+    </div>
+
+
+  </section>
+
+  <section id="portfolio" class="container-fluid containerBackground">
     <div class="text-center">
-      <h3 class="titulo pt-3">Portfolio</h3>
+      <h3 class="titulo pt-3">Portafolio</h3>
     </div>
     <section id="galeriaPotfolio" class="container-fluid galeriaProductos pt-5 pb-5">
       <div class="row">
-        <div class="col-lg-4 col-md-6 col-sm-12 mb-3">
-          <img src="media/misDesarrollos/piedraPapelTijera.jpg" alt="">
+        <div class="col-lg-6 col-md-6 col-sm-12 mb-3 picFist">
         </div>
 
         <div class="col-lg-4 col-md-6 col-sm-12 mb-3">
@@ -174,9 +178,57 @@
 
   </section>
 
-  <section id="contact" class="container-fluid containerContact">
+  <section id="contact" class="container-fluid containerBackground">
+    <div class="text-center tituloContainer pt-2">
+      <h3 class="tituloBack pt-3">HABLEMOS</h3>
+      <h3 class="titulo pt-3">HABLEMOS</h3>
 
+      <div class="containerContact d-flex align-items-center justify-content-center ">
 
+        <div class="formContainer col-lg-10 d-flex">
+          <div class='d-flex flex-column container-fluid'>
+            <div class="d-flex">
+
+              <div class="contactTitle titulo d-flex flex-column align-items-end"> <div>Contact</div> <div>me</div></div>
+              
+              <div class="formGroup">
+                <form action="https://formspree.io/f/meqnorzl" method="post"> 
+                  <div class="inputsContainer d-flex flex-column align-items-end">
+    
+                    <div class="inputForm">
+                      <input class="inputStyle" type='text' name='name' placeholder="NAME" >
+                    </div>
+                    <div class="inputForm">
+                      <input class="inputStyle" type='email' name='email' placeholder="EMAIL">
+                    </div>
+                    <div class="inputForm">
+                      <input class="inputStyle" type='phone' name='phone' placeholder="CONTACT NO">
+                    </div>
+                    <div class="inputForm mt-5">
+                      <input class="inputStyle" type='text' name='message' placeholder="MESSAGE">
+                    </div>
+                    <div>
+                      <button type="reset" class="">CLEAR</button>
+                      <button class="" type="submit">SEND</button>
+                    </div>
+                    
+                  </div>
+                </form>
+                
+              </div>
+
+            </div>
+            <div class="contactAnuncio">Este formulario es eviado con <a href="https://formspree.io/"><img src="https://formspree.io/static/img/formspree-new.svg" alt=""></a> </div>
+
+          </div>
+          
+
+        </div>
+        
+        
+      </div>
+
+    </div>
   </section>
 
   <!--------LINK JQUERY-------->
