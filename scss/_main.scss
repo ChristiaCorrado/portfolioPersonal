@@ -5,6 +5,8 @@ a{
   color: #fff !important;
 }
 
+
+
 .logoContainer{
   height:100%;
 }
@@ -323,9 +325,44 @@ button{
   }
 }
 
+
+.footerPortfolio{
+  width: 100%;
+  background: #0a101e;
+  display: flex;
+  flex-direction: row;
+  justify-content:center;
+}
+
+
+.redesLog{
+  width: 40px;
+  height: 40px;
+  background: transparent;
+  color: white;
+  border: 3px solid #fff;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin:10px;
+}
+
 @media screen and (max-width:320px){
+
+  .navLink{
+    display:none;
+    width:100%;
+  }
+
    .titulo {
      font-size: 2rem;
+   }
+
+   .tituloBack{
+     font-size: 3rem;
+     left: 0;
+     width: 100%;
    }
 
    .typedContainer{
@@ -344,4 +381,22 @@ button{
    .skillCase{
      font-size: 1rem;
    }
+
+   .contactTitle{
+     width: 100%;
+     align-items: center !important;
+   }
+
+   .formGroup{
+     width: 100%;
+   }
+
+   .inputForm{
+     width: 100%;
+   }
+   .columnContact{
+     width:100%;
+     flex-direction:column !important;
+   }
+  
 }
