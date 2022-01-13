@@ -273,7 +273,7 @@ button {
   justify-content: center;
   margin: 10px; }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 575px) {
   .navLink {
     display: none;
     width: 100%; }
